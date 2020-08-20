@@ -1,0 +1,10 @@
+camel:
+  springboot:
+    main-run-controller: true
+    predicateLondon: /person/city='London'
+    predicateTampa: /person/city='Tampa'
+    bootstrapServers: localhost:9092
+    producerTopic: test
+    consumerTopic1: test1
+    consumerTopic2: test2
+    kafkaUrl: kafka:%s?brokers=%s
